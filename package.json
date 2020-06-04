@@ -2,7 +2,7 @@
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kletiakalavace.github.io/BurgerBuilder",
+  "homepage": "https://kletiakalavace.github.io/BurgerBuilder/",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "axios": "^0.19.2",
@@ -46,8 +46,6 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
